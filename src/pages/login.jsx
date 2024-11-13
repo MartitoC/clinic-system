@@ -25,7 +25,7 @@ const Login = () => {
     <div className='flex items-center justify-center h-screen'>
       <div className="bg-[#84E1BC] p-16 rounded-xl w-96 mx-auto">
         <div className='mx-auto w-52'>
-          <h2 className="text-center text-2xl font-bold mb-4 text-[#217D58]">Sistema de Clínica</h2>
+          <h2 className="text-center text-2xl font-bold mb-4 text-[#217D58]">Sistema de Clinica</h2>
           <form onSubmit={handleSubmit}>
             <div className="mb-4">
               <input
