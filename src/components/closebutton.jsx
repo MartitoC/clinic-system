@@ -4,7 +4,7 @@ const CloseButton = ({ onClick }) => {
     return (
         <div
             onClick={onClick} 
-            className="flex items-center justify-center bg-red-200 rounded-md w-8 h-8 cursor-pointer"
+            className="flex items-center justify-center bg-[#C8F8E5] rounded-md w-8 h-8 cursor-pointer"
         >
             <svg
                 xmlns="http://www.w3.org/2000/svg"
