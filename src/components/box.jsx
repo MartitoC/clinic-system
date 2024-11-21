@@ -4,12 +4,12 @@ import CloseButton from './closebutton.jsx';
 const Box = ({ closeBox }) => {
     return (
         <div className="flex bg-[#C8F8E5] w-full h-full rounded-2xl text-[#217D58]">
-            <div className="flex mx-auto my-auto bg-red-[[#C8F8E5] w-11/12 h-5/6 rounded-lg p-6">
+            <div className="flex mx-auto my-auto bg-[#C8F8E5] w-11/12 h-5/6 rounded-lg p-6">
                 <form className="w-full">
-                    <h2 className="text-lg font-bold mb-4">Formulario de Cita</h2>
+                    <h2 className="flex justify-center text-2xl font-normal mb-4">Agendar Cita</h2>
                     
                     <div className="mb-4">
-                        <label htmlFor="nombreCompleto" className="block font-medium">Nombre Completo</label>
+                        <label htmlFor="nombreCompleto" className="block font-medium">Nombre Completo del Paciente</label>
                         <input
                             type="text"
                             id="nombreCompleto"
@@ -19,7 +19,7 @@ const Box = ({ closeBox }) => {
                     </div>
                     
                     <div className="mb-4">
-                        <label htmlFor="ci" className="block font-medium">Cédula de Identidad (CI)</label>
+                        <label htmlFor="ci" className="block font-medium">Cédula de Identidad(CI o RUC)</label>
                         <input
                             type="text"
                             id="ci"
@@ -49,7 +49,7 @@ const Box = ({ closeBox }) => {
                     </div>
                     
                     <div className="mb-4">
-                        <label htmlFor="fecha" className="block font-medium">Fecha</label>
+                        <label htmlFor="fecha" className="block font-medium">Fecha de Turno</label>
                         <input
                             type="date"
                             id="fecha"
@@ -58,7 +58,7 @@ const Box = ({ closeBox }) => {
                     </div>
                     
                     <div className="mb-4">
-                        <label htmlFor="hora" className="block font-medium">Hora</label>
+                        <label htmlFor="hora" className="block font-medium">Hora del Turno</label>
                         <input
                             type="time"
                             id="hora"
@@ -68,9 +68,9 @@ const Box = ({ closeBox }) => {
                     <div className='flex justify-center items-center'>
                         <button
                             type="submit"
-                            className="w-24 bg-[#67AA8F] text-white p-2 rounded-lg hover:bg-[#457D67] transition duration-200"
+                            className="w-32 bg-[#67AA8F] text-white p-2 rounded-lg hover:bg-[#457D67] transition duration-200"
                         >
-                            Enviar
+                            Agendar Turno
                         </button>
                     </div>
                     
